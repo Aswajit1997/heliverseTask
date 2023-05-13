@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import jsonData from "./data.json";
-import Pagination from "./pagination";
+import Pagination from "./pagination.jsx";
 import "./App.css";
 
 const convertedData = jsonData.map((item) => item);
